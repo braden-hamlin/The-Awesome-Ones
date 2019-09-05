@@ -10,8 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
     @IBOutlet weak var viewer: UIImageView!
     @IBOutlet weak var label: UILabel!
+    
     
     var randomStart = Int.random(in: 0...7)
     var people = ["Ethan",
